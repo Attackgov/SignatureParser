@@ -37,8 +37,3 @@
 - The console will automatically maximize to fullscreen for better visibility.
 
 ---
-
-## Author
-
-**Attack**  
-Signature Parser Tool Developer
